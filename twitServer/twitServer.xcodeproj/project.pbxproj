@@ -1,0 +1,216 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B14B33B215888C7F00AB4F88 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B14B33B115888C7F00AB4F88 /* main.cpp */; };
+		B14B33B415888C7F00AB4F88 /* twitServer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B14B33B315888C7F00AB4F88 /* twitServer.1 */; };
+		B14B33BC15888CB700AB4F88 /* twitServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B14B33BB15888CB700AB4F88 /* twitServer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B14B33AB15888C7F00AB4F88 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B14B33B415888C7F00AB4F88 /* twitServer.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B14B33AD15888C7F00AB4F88 /* twitServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = twitServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		B14B33B115888C7F00AB4F88 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B14B33B315888C7F00AB4F88 /* twitServer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = twitServer.1; sourceTree = "<group>"; };
+		B14B33BA15888C9B00AB4F88 /* twitServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = twitServer.h; sourceTree = "<group>"; };
+		B14B33BB15888CB700AB4F88 /* twitServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = twitServer.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B14B33AA15888C7F00AB4F88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B14B33A215888C7F00AB4F88 = {
+			isa = PBXGroup;
+			children = (
+				B14B33BA15888C9B00AB4F88 /* twitServer.h */,
+				B14B33BB15888CB700AB4F88 /* twitServer.cpp */,
+				B14B33B015888C7F00AB4F88 /* twitServer */,
+				B14B33AE15888C7F00AB4F88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B14B33AE15888C7F00AB4F88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B14B33AD15888C7F00AB4F88 /* twitServer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B14B33B015888C7F00AB4F88 /* twitServer */ = {
+			isa = PBXGroup;
+			children = (
+				B14B33B115888C7F00AB4F88 /* main.cpp */,
+				B14B33B315888C7F00AB4F88 /* twitServer.1 */,
+			);
+			path = twitServer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B14B33AC15888C7F00AB4F88 /* twitServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B14B33B715888C7F00AB4F88 /* Build configuration list for PBXNativeTarget "twitServer" */;
+			buildPhases = (
+				B14B33A915888C7F00AB4F88 /* Sources */,
+				B14B33AA15888C7F00AB4F88 /* Frameworks */,
+				B14B33AB15888C7F00AB4F88 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = twitServer;
+			productName = twitServer;
+			productReference = B14B33AD15888C7F00AB4F88 /* twitServer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B14B33A415888C7F00AB4F88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B14B33A715888C7F00AB4F88 /* Build configuration list for PBXProject "twitServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B14B33A215888C7F00AB4F88;
+			productRefGroup = B14B33AE15888C7F00AB4F88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B14B33AC15888C7F00AB4F88 /* twitServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B14B33A915888C7F00AB4F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14B33B215888C7F00AB4F88 /* main.cpp in Sources */,
+				B14B33BC15888CB700AB4F88 /* twitServer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B14B33B515888C7F00AB4F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B14B33B615888C7F00AB4F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B14B33B815888C7F00AB4F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B14B33B915888C7F00AB4F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B14B33A715888C7F00AB4F88 /* Build configuration list for PBXProject "twitServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B14B33B515888C7F00AB4F88 /* Debug */,
+				B14B33B615888C7F00AB4F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B14B33B715888C7F00AB4F88 /* Build configuration list for PBXNativeTarget "twitServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B14B33B815888C7F00AB4F88 /* Debug */,
+				B14B33B915888C7F00AB4F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B14B33A415888C7F00AB4F88 /* Project object */;
+}
