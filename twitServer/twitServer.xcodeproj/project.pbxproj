@@ -26,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B124F185158DDC93009B111D /* twistUser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = twistUser.cpp; sourceTree = "<group>"; };
+		B124F186158DDC93009B111D /* twitUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = twitUser.h; sourceTree = "<group>"; };
 		B14B33AD15888C7F00AB4F88 /* twitServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = twitServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		B14B33B115888C7F00AB4F88 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B14B33B315888C7F00AB4F88 /* twitServer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = twitServer.1; sourceTree = "<group>"; };
@@ -48,6 +50,8 @@
 			isa = PBXGroup;
 			children = (
 				B14B33BA15888C9B00AB4F88 /* twitServer.h */,
+				B124F185158DDC93009B111D /* twistUser.cpp */,
+				B124F186158DDC93009B111D /* twitUser.h */,
 				B14B33BB15888CB700AB4F88 /* twitServer.cpp */,
 				B14B33B015888C7F00AB4F88 /* twitServer */,
 				B14B33AE15888C7F00AB4F88 /* Products */,
@@ -209,6 +213,7 @@
 				B14B33B915888C7F00AB4F88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B124F184158CEB60009B111D /* twistUser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B124F183158CEB60009B111D /* twistUser.cpp */; };
 		B14B33CD15888CF000AB4F88 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B14B33CC15888CF000AB4F88 /* main.cpp */; };
 		B14B33CF15888CF000AB4F88 /* twitClient.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B14B33CE15888CF000AB4F88 /* twitClient.1 */; };
 		B14B33D715888D0900AB4F88 /* twitClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B14B33D615888D0900AB4F88 /* twitClient.cpp */; };
@@ -27,8 +26,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B124F182158CEB53009B111D /* twitUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = twitUser.h; sourceTree = "<group>"; };
-		B124F183158CEB60009B111D /* twistUser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = twistUser.cpp; sourceTree = "<group>"; };
 		B14B33C815888CF000AB4F88 /* twitClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = twitClient; sourceTree = BUILT_PRODUCTS_DIR; };
 		B14B33CC15888CF000AB4F88 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B14B33CE15888CF000AB4F88 /* twitClient.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = twitClient.1; sourceTree = "<group>"; };
@@ -50,8 +47,6 @@
 		B14B33BD15888CF000AB4F88 = {
 			isa = PBXGroup;
 			children = (
-				B124F182158CEB53009B111D /* twitUser.h */,
-				B124F183158CEB60009B111D /* twistUser.cpp */,
 				B14B33D615888D0900AB4F88 /* twitClient.cpp */,
 				B14B33D515888CFC00AB4F88 /* twitClient.h */,
 				B14B33CB15888CF000AB4F88 /* twitClient */,
@@ -128,7 +123,6 @@
 			files = (
 				B14B33CD15888CF000AB4F88 /* main.cpp in Sources */,
 				B14B33D715888D0900AB4F88 /* twitClient.cpp in Sources */,
-				B124F184158CEB60009B111D /* twistUser.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
